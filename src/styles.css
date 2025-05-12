@@ -1,0 +1,85 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: aliceblue;
+}
+
+body {
+  background-color: #1a1b25;
+}
+
+.heading {
+  font-size: 3rem;
+}
+
+.addtodo-div {
+  /* display: flex; */
+  /* background-color: blue; */
+  width: 90%;
+  margin: 40px auto;
+}
+
+.todo-input {
+  width: 80%;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  outline: none;
+  border: 1px solid aliceblue;
+  background-color: #1a1b25;
+  color: aliceblue;
+}
+
+.addtodo-btn {
+  padding: 11px 13px;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: aliceblue;
+  font-weight: 600;
+}
+
+.todo-div {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #505068; */
+  background-color: #3d405b;
+  width: 80%;
+  margin: 25px auto;
+  border-radius: 8px;
+  padding: 0 8px;
+}
+
+.todo-group {
+  display: flex;
+  column-gap: 16px;
+}
+
+/* .checkbox {
+  accent-color: #a8dadc;
+} */
+
+/* Remove default styling */
+input[type="checkbox"] {
+  accent-color: #252636;
+  width: 18px;
+
+  cursor: pointer;
+}
+
+.todo-txt {
+  font-size: 1.2rem;
+  /* text-decoration: line-through; */
+}
+
+.todo-checked {
+  text-decoration: line-through;
+  color: #808080;
+}
+
+.delete-btn {
+  align-self: center;
+  border: none;
+  background-color: #3d405b;
+  cursor: pointer;
+}
